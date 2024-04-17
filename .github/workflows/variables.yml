@@ -4,4 +4,4 @@ jobs:
     mostrar:
         runs-on: ubuntu-latest
         steps:
-            - run: echo "${{env.NOMBRE}}"
+            - run: echo "${{vars.NOMBRE}}"
