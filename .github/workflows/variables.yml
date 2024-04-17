@@ -1,0 +1,7 @@
+name: contexto
+on: push
+jobs:
+    mostrar:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "${{vars.NOMBRE}}"
